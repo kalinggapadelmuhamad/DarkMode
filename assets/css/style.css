@@ -1,0 +1,103 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "lato";
+	background: #f4f4fb;
+	color: #3e4963;
+}
+
+.navbar {
+/*	width: 68%;
+*/	margin: auto;
+	padding: 7px;
+	background: #f4f4fb;
+}
+
+.navbar .container{
+	width: 68%;
+}
+
+.navbar a {
+	color: #3e4963 !important;
+	font-size: 1.5rem;
+}
+
+.navbar span {
+	color: #3e4963 !important;
+	font-size: 1.5rem;
+}
+
+.text-teal {
+	color: teal;
+}
+
+.main {
+	padding-top: 160px;
+	align-content: center;
+	align-self: center;
+	width: 100%;
+	height: 100%;
+}
+
+.main .mainImg {
+	width: 125px;
+	box-shadow: 5px -5px 100px rgba(0,0,0,0.1);
+}
+
+.main .tittle {
+	font-size: 2.2rem;
+    letter-spacing: -3px;
+    color: #3e4963;
+    font-weight: 800;
+    font-family: "lato";
+}
+
+.main .description {
+	font-weight: 400;
+	color: #3e4963;
+}
+
+.main .icon a {
+	color: #3e4963;
+	font-size: 1.5rem;
+	letter-spacing: 10px;
+}
+
+.main .menu a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: indigo;
+	display: inline-block;
+	font-family: lato;
+	font-size: 1rem;
+	padding: 5px;
+}
+
+.dark,
+.dark * {
+    background-color: #1a2744;
+    color: #92c4ff !important;
+}
+
+.darkIcon {
+	color: #f4f4fb  !important;
+}
+
+@media (max-width: 720px){
+
+	.navbar .container {
+		width: 100%;
+		margin: auto;
+	}
+
+	.navbar a {
+
+	}
+	
+	.main {
+		padding-top: 120px;
+	}
+	
+}
